@@ -6,3 +6,80 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    font-family: 'Open Sans', sans-serif;
+}
+ul *{
+    list-style: none;
+}
+img{
+    height: 100%;
+}
+
+/*--------------- 
+    DEBUG
+----------------*/
+.debug{
+    border: 1px dashed black;
+}
+.indebug{
+    border: 1px dashed red;
+}
+
+/*--------------- 
+    GENERAL
+----------------*/
+header{
+    min-height: 70px;
+    position: sticky;
+    top: 0;
+    left: 0;
+}
+.destra{
+    justify-content: end;
+}
+
+/*--------------- 
+    BUTTON
+----------------*/
+.btn-col{
+    background-color: #0061ff;
+    cursor: pointer;
+    border: none;
+    padding: 6px 10px;
+    color: #fff;
+}
+.btn-normal{
+    background-color: #fff;
+    cursor: pointer;
+    border: none;
+    padding: 6px 10px;
+}
+
+/*--------------- 
+    RIGHE E 
+    COLONNE
+----------------*/
+.row{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    max-width: 1400px;
+    min-height: 8vh;
+    margin: 0 auto;
+}
+.col-50{
+    width: 50%;
+    display: flex;
+}
+
+/*--------------- 
+    HEADER
+----------------*/
+.menu{
+    display: flex;
+    padding: 0px 25px;
+}
+.menu li{
+    padding: 0px 15px;
+}
