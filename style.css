@@ -44,6 +44,17 @@ header{
     width: 100%;
     margin: 20px 0px;
 }
+.centratura-card{
+    padding: 20px 30px;
+}
+.centratura-card *{
+    padding: 6px 0px;
+}
+.icons{
+    text-align: center;
+    border-bottom: 1px solid #d0d0d3;
+    padding: 10px 0px;
+}
 
 /*--------------- 
     BUTTON
@@ -73,6 +84,9 @@ h1{
 h2{
     font-size: 30px;
     padding: 20px 0px;
+}
+h3{
+    font-size: 25px;
 }
 .col-items i{
     font-size: 40px;
@@ -116,7 +130,7 @@ h2{
 .card-33{
     min-height: 500px;
     width: calc(100% / 3);
-    border: 1px solid #000;
+    border: 1px solid #d0d0d3;
 }
 
 
@@ -125,10 +139,12 @@ h2{
 ----------------*/
 .col-50.flex{
     display: flex;
+    align-items: center;
 }
 .menu{
     display: flex;
     padding: 0px 25px;
+    line-height: 100%;
 }
 .menu li{
     padding: 0px 15px;
@@ -154,8 +170,8 @@ h2{
     display: flex;
     flex-direction: column;
 }
-.col-items span, i{
-    padding-top: 40px;
+.col-items span{
+    padding: 40px 0px;
 }
 .col-items p{
     padding-bottom: 40px;
@@ -166,4 +182,21 @@ h2{
 .col-70.scalino{
     margin-bottom: -60px;
 }
-
+.container {
+    display: flex;
+    flex-direction: column;
+    margin: 30px 0px;
+}
+.container.icon > div {
+    display: flex;
+    align-items: flex-start;
+}
+.container.icon > div i {
+    margin-right: 5px; 
+}
+.provagiorni{
+    width: 100%;
+    padding: 13px 0px;
+    font-size: 18px;
+    margin-bottom: 20px;
+}
