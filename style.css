@@ -34,6 +34,8 @@ header{
     position: sticky;
     top: 0;
     left: 0;
+    background-color: #fff;
+    box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
 }
 .destra{
     justify-content: end;
@@ -60,7 +62,7 @@ header{
     RIGHE E 
     COLONNE
 ----------------*/
-.row{
+.row.header{
     display: flex;
     align-items: center;
     flex-wrap: wrap;
@@ -68,18 +70,49 @@ header{
     min-height: 8vh;
     margin: 0 auto;
 }
+.row-large{
+    display: flex;
+    max-width: 1200px;
+    margin: 0 auto;
+}
 .col-50{
     width: 50%;
-    display: flex;
+}
+
+/*--------------- 
+    TYPOGRAPHY
+----------------*/
+h1{
+    font-size: 40px;
+    padding-top: 50px;
 }
 
 /*--------------- 
     HEADER
 ----------------*/
+.col-50.flex{
+    display: flex;
+}
 .menu{
     display: flex;
     padding: 0px 25px;
 }
 .menu li{
     padding: 0px 15px;
+}
+
+/*--------------- 
+    MAIN
+----------------*/
+.hero{
+    min-height: 800px;
+    background-color: #b4d0e7;
+}
+.titolo.big{
+    max-width: 1200px;
+    margin: 0 auto;
+}
+.col-items{
+    display: flex;
+    flex-direction: column;
 }
