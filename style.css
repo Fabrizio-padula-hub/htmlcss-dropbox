@@ -40,6 +40,10 @@ header{
 .destra{
     justify-content: end;
 }
+.titolo{
+    width: 100%;
+    margin: 20px 0px;
+}
 
 /*--------------- 
     BUTTON
@@ -66,6 +70,10 @@ h1{
     font-weight: 800;
     padding: 50px 0px;
 }
+h2{
+    font-size: 30px;
+    padding: 20px 0px;
+}
 .col-items i{
     font-size: 40px;
 }
@@ -87,7 +95,13 @@ h1{
 }
 .row-large{
     display: flex;
-    max-width: 1100px;
+    max-width: 1150px;
+    margin: 0 auto;
+}
+.row-small{
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1000px;
     margin: 0 auto;
 }
 .col-50{
@@ -99,6 +113,11 @@ h1{
 .col-30{
     width: 30%;
 }
+.card-33{
+    width: calc(100% / 3);
+    text-align: center;
+}
+
 
 /*--------------- 
     HEADER
@@ -122,11 +141,12 @@ h1{
     MAIN
 ----------------*/
 .hero{
-    min-height: 200px;
+    min-height: 590px;
     background-color: #b4d0e7;
+    margin-bottom: 40px;
 }
 .titolo.big{
-    max-width: 1100px;
+    max-width: 1150px;
     margin: 0 auto;
 }
 .col-items{
@@ -142,3 +162,7 @@ h1{
 .col-items .btn-col{
     width: 70%;
 }
+.col-70.scalino{
+    margin-bottom: -60px;
+}
+
