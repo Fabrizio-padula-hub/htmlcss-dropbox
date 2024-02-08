@@ -62,8 +62,15 @@ header{
     TYPOGRAPHY
 ----------------*/
 h1{
+    font-size: 50px;
+    font-weight: 800;
+    padding: 50px 0px;
+}
+.col-items i{
     font-size: 40px;
-    padding-top: 50px;
+}
+.col-items .btn-col{
+    font-size: 18px;
 }
 
 /*--------------- 
@@ -80,7 +87,7 @@ h1{
 }
 .row-large{
     display: flex;
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 .col-50{
@@ -115,15 +122,23 @@ h1{
     MAIN
 ----------------*/
 .hero{
-    min-height: 800px;
+    min-height: 200px;
     background-color: #b4d0e7;
 }
 .titolo.big{
-    max-width: 1200px;
+    max-width: 1100px;
     margin: 0 auto;
 }
 .col-items{
     display: flex;
     flex-direction: column;
-    width: 60%;
+}
+.col-items span, i{
+    padding-top: 40px;
+}
+.col-items p{
+    padding-bottom: 40px;
+}
+.col-items .btn-col{
+    width: 70%;
 }
