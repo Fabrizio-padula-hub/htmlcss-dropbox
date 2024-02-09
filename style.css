@@ -45,6 +45,9 @@ hr{
     padding: 0px;
     max-width: 30%;
 }
+footer{
+    color: #fff;
+}
 .radio-container{
     margin-right: 30px;
 }
@@ -132,6 +135,9 @@ hr{
 }
 .col-100{
     width: 100%;
+}
+.col-20{
+    width: calc(100% / 5);
 }
 
 /*--------------- 
