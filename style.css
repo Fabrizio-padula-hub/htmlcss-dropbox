@@ -209,6 +209,9 @@ h3{
 .icon > ul i {
     margin-right: 5px;
 }
+.icons span i{
+    margin-right: 10px;
+}
 .provagiorni{
     width: 100%;
     padding: 13px 0px;
@@ -217,4 +220,14 @@ h3{
 }
 .fa-check{
     color: #0061ff;
+}
+.wrapper{
+    display: flex;
+    max-width: 90%;
+    margin: 0 auto;
+    padding: 30px 0px;
+}
+.paragrafo{
+    margin-top: 45px;
+    margin-right: 40px;
 }
