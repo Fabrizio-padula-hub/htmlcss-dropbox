@@ -238,14 +238,20 @@ h3{
     flex-wrap: nowrap;
     margin-top: 100px;
 }
-.partner .col-30{
+.strumenti .col-30{
     padding-top: 50px;
 }
-.partner .col-30 button{
+.strumenti .col-30 button{
     font-size: 18px;
     padding: 8px;
     border: 1px solid #000;
 }
-.partner .col-30 p{
+.strumenti .col-30 p{
     margin: 30px 0px;
+}
+.strumenti h2{
+    margin-top: 100px;
+}
+.strumenti div h3{
+    padding: 20px 0px;
 }
