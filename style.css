@@ -131,7 +131,7 @@ h3{
     flex-wrap: wrap;
     max-width: 1000px;
     margin: 0 auto;
-    gap: 15px;
+    gap: 20px;
 }
 .col-50{
     width: 50%;
@@ -143,7 +143,7 @@ h3{
     width: 30%;
 }
 .card-33{
-    width: calc(100% / 3 - 15px);
+    width: calc(100% / 3 - 20px);
 }
 .col-100{
     width: 100%;
@@ -212,6 +212,9 @@ h3{
 .icons span i{
     margin-right: 10px;
 }
+.pianomensile span{
+    color: #d0d0d3;
+}
 .provagiorni{
     width: 100%;
     padding: 13px 0px;
@@ -230,4 +233,19 @@ h3{
 .paragrafo{
     margin-top: 45px;
     margin-right: 40px;
+}
+.partner{
+    flex-wrap: nowrap;
+    margin-top: 100px;
+}
+.partner .col-30{
+    padding-top: 50px;
+}
+.partner .col-30 button{
+    font-size: 18px;
+    padding: 8px;
+    border: 1px solid #000;
+}
+.partner .col-30 p{
+    margin: 30px 0px;
 }
