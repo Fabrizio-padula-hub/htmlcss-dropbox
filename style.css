@@ -127,9 +127,11 @@ h3{
 }
 .row-small{
     display: flex;
+    justify-content: space-between;
     flex-wrap: wrap;
     max-width: 1000px;
     margin: 0 auto;
+    gap: 15px;
 }
 .col-50{
     width: 50%;
@@ -141,7 +143,11 @@ h3{
     width: 30%;
 }
 .card-33{
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 15px);
+}
+.col-100{
+    width: 100%;
+    border: 1px solid #d0d0d3;
 }
 
 /*--------------- 
