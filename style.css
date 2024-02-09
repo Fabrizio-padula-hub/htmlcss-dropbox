@@ -37,6 +37,16 @@ header{
     background-color: #fff;
     box-shadow: 0px 5px 5px rgba(0, 0, 0, 0.3);
 }
+hr{
+    padding: 0px;
+    max-width: 30%;
+}
+.radio-container{
+    margin-right: 30px;
+}
+.radio-container input{
+    margin-right: 5px;
+}
 .destra{
     justify-content: end;
 }
@@ -47,13 +57,16 @@ header{
 .centratura-card{
     padding: 20px 30px;
 }
-.centratura-card *{
+.centratura-card * :not(hr){
     padding: 6px 0px;
 }
 .icons{
     text-align: center;
     border-bottom: 1px solid #d0d0d3;
     padding: 10px 0px;
+}
+.box{
+    padding: 40px 0px;
 }
 
 /*--------------- 
@@ -82,8 +95,8 @@ h1{
     padding: 50px 0px;
 }
 h2{
-    font-size: 30px;
-    padding: 20px 0px;
+    font-size: 35px;
+    padding: 30px 0px;
 }
 h3{
     font-size: 25px;
@@ -196,6 +209,6 @@ h3{
     font-size: 18px;
     margin-bottom: 20px;
 }
-hr{
-    padding: 0px;
+.fa-check{
+    color: #0061ff;
 }
