@@ -94,28 +94,6 @@ hr{
 }
 
 /*--------------- 
-    TYPOGRAPHY
-----------------*/
-h1{
-    font-size: 50px;
-    font-weight: 800;
-    padding: 50px 0px;
-}
-h2{
-    font-size: 35px;
-    padding: 30px 0px;
-}
-h3{
-    font-size: 25px;
-}
-.col-items i{
-    font-size: 40px;
-}
-.col-items .btn-col{
-    font-size: 18px;
-}
-
-/*--------------- 
     RIGHE E 
     COLONNE
 ----------------*/
@@ -154,7 +132,28 @@ h3{
 }
 .col-100{
     width: 100%;
-    border: 1px solid #d0d0d3;
+}
+
+/*--------------- 
+    TYPOGRAPHY
+----------------*/
+h1{
+    font-size: 50px;
+    font-weight: 800;
+    padding: 50px 0px;
+}
+h2{
+    font-size: 35px;
+    padding: 30px 0px;
+}
+h3{
+    font-size: 25px;
+}
+.col-items i{
+    font-size: 40px;
+}
+.col-items .btn-col{
+    font-size: 18px;
 }
 
 /*--------------- 
@@ -259,4 +258,32 @@ h3{
 }
 .strumenti div h3{
     padding: 30px 0px;
+}
+.sezione-colorata{
+    min-height: 300px;
+    align-items: center;
+    color: #61082b;
+}
+.sezione-colorata button{
+    padding: 10px 45px;
+}
+.faq div{
+    display: flex;
+    justify-content: space-between;
+    width: 100%;
+    padding: 30px 0px;
+    border-top: 1px solid #d0d0d3;
+    border-bottom: 1px solid #d0d0d3;
+}
+.faq div i{
+    margin-right: 25px;
+}
+
+/*--------------- 
+    FOOTER
+----------------*/
+.hero.footer{
+    margin-top: 100px;
+    min-height: 500px;
+    background-color: #000;
 }
