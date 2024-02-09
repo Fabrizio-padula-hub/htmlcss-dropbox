@@ -25,6 +25,10 @@ img{
 .indebug{
     border: 1px dashed red;
 }
+.copertura{
+    min-height: 600px;
+    background-color: rgb(117, 241, 218);
+}
 
 /*--------------- 
     GENERAL
@@ -177,9 +181,7 @@ h3{
     MAIN
 ----------------*/
 .hero{
-    min-height: 590px;
     background-color: #b4d0e7;
-    margin-bottom: 40px;
 }
 .titolo.big{
     max-width: 1150px;
