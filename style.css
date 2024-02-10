@@ -26,8 +26,20 @@ img{
     border: 1px dashed red;
 }
 .copertura{
-    min-height: 600px;
-    background-color: rgb(117, 241, 218);
+    display: flex;
+    flex-wrap: nowrap;
+    /* justify-content: space-between; */
+    margin-top: 100px;
+    background-color: #d7d7d7;
+}
+.col-40{
+    width: 40%;
+    border: 1px dashed rgb(6, 28, 228);
+
+}
+.row{
+    display: flex;
+    max-width: 100%;
 }
 
 /*--------------- 
@@ -177,7 +189,6 @@ h3{
 .menu{
     display: flex;
     padding: 0px 25px;
-    line-height: 100%;
 }
 .menu li{
     padding: 0px 15px;
@@ -295,7 +306,7 @@ h3{
 ----------------*/
 .hero.footer{
     margin-top: 100px;
-    min-height: 500px;
+    min-height: 440px;
     background-color: #000;
 }
 .col-20 h4{
