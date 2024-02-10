@@ -298,3 +298,28 @@ h3{
     min-height: 500px;
     background-color: #000;
 }
+.col-20 h4{
+    font-size: 20px;
+    font-weight: 700;
+    margin-bottom: 25px;
+}
+.col-20 ul li{
+    margin-bottom: 10px;
+}
+.position{
+    position: relative;
+    padding-bottom: 70px;
+}
+.scelte{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    border-top: 1px solid #fff;
+    padding-top: 20px;
+    color: #999999;
+}
+.scelte select{
+    color: #999999; /* Colore del testo delle opzioni */
+    background-color: transparent;
+    border: none;
+}
