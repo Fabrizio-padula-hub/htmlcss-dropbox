@@ -21,25 +21,51 @@ img{
 ----------------*/
 .debug{
     border: 1px dashed black;
+    background-color: #d7d7d7;
+    overflow-y: scroll;
 }
 .indebug{
     border: 1px dashed red;
 }
 .copertura{
     display: flex;
-    flex-wrap: nowrap;
-    /* justify-content: space-between; */
+    flex-wrap: wrap;
     margin-top: 100px;
-    background-color: #d7d7d7;
 }
 .col-40{
     width: 40%;
-    border: 1px dashed rgb(6, 28, 228);
-
 }
 .row{
     display: flex;
-    max-width: 100%;
+}
+.square{
+    min-width: 10vw;
+    min-height: 10vh;
+}
+.square.uno{
+    background-color: #a2d39b;
+    box-shadow: inset 0 0 0 10px #d1e9cd;
+}
+.square.due{
+    background-color: #61082b;
+}
+.square.tre{
+    background-color: #0093ce;
+}
+.square.quattro{
+    background-color: #ff1c1c;
+}
+.square.cinque{
+    background-color: #d5001f;
+}
+.square.sei{
+    background-color: #b4d0e7;
+}
+.square.sette{
+    background-color: #0d2481;
+}
+.square.otto{
+    background-color: #ffd830;
 }
 
 /*--------------- 
