@@ -21,50 +21,61 @@ img{
 ----------------*/
 .debug{
     border: 1px dashed black;
-    background-color: #d7d7d7;
-    overflow-y: scroll;
 }
 .indebug{
     border: 1px dashed red;
 }
 .copertura{
     display: flex;
-    flex-wrap: wrap;
     margin-top: 100px;
+    max-height: 400px;
 }
 .col-40{
     width: 40%;
+    padding: 35px;
+    background-color: #f5f5f5;
+    overflow-y: auto;
+}
+.col-40 img{
+    max-width: 40%;
+    margin-bottom: 30px;
+}
+.col-40 p{
+    padding: 40px 0px;
 }
 .row{
     display: flex;
 }
 .square{
-    min-width: 10vw;
-    min-height: 10vh;
+    flex: 1;
+    height: 10vh;
 }
-.square.uno{
+
+
+
+.uno{
     background-color: #a2d39b;
     box-shadow: inset 0 0 0 10px #d1e9cd;
 }
-.square.due{
+.due{
     background-color: #61082b;
 }
-.square.tre{
+.tre{
     background-color: #0093ce;
 }
-.square.quattro{
+.quattro{
     background-color: #ff1c1c;
 }
-.square.cinque{
+.cinque{
     background-color: #d5001f;
 }
-.square.sei{
+.sei{
     background-color: #b4d0e7;
 }
-.square.sette{
+.sette{
     background-color: #0d2481;
 }
-.square.otto{
+.otto{
     background-color: #ffd830;
 }
 
