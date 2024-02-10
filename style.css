@@ -116,6 +116,7 @@ footer{
 .row-small{
     display: flex;
     justify-content: space-between;
+    align-items: stretch;
     flex-wrap: wrap;
     max-width: 1000px;
     margin: 0 auto;
@@ -132,6 +133,10 @@ footer{
 }
 .card-33{
     width: calc(100% / 3 - 20px);
+}
+.card-33 .container{
+    height: 100%;
+    overflow-y: auto;
 }
 .col-100{
     width: 100%;
